@@ -4,7 +4,7 @@ body {
 
 /* navigations */
 nav {
-  background color: yellow;
+  background-color: yellow;
   height: 100px;
   margin-top: -10px;
   position: fixed;
@@ -19,14 +19,14 @@ section {
 
 /* paragraph */
 h1 {
-  font-family sans-serif;
+  font-family: sans-serif;
   font-size: 2em;
 }
 
 /* first example */
 .example, h3 {
   padding-top: 30px;
-  text-align center
+  text-align: center;
 }
 
 /* another paragraph */
@@ -34,10 +34,14 @@ h3 {
   font-size: 1.3em;
 }
 
-/* final element */
+/* element */
 .element {
   background-color: green;
   height: 100px;
-  margin 10px 0;
+  margin: 10px 0;
   width: 100%;
+}
+/* last 3 elements */
+.last-element {
+  background-color: blue;
 }
